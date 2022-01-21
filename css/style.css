@@ -446,7 +446,6 @@ header {
 /* Pricing css style start */
 #pricing {
   margin-top: 150px;
-  margin-bottom: 150px;
 }
 .pricing-title {
   max-width: 600px;
@@ -482,6 +481,9 @@ header {
   outline: 0;
   background: none;
 }
+.btn_color {
+  color: #2500f9;
+}
 .pricing_card {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -495,7 +497,7 @@ header {
   max-width: 317px;
   border-radius: 9px;
   background-color: #fff;
-  filter: drop-shadow(3.837px 54.866px 31px rgba(144, 163, 177, 0.18));
+  filter: drop-shadow(3.837px 54.866px 31px rgba(164, 164, 165, 0.18));
   overflow: hidden;
 }
 .card_2 {
@@ -537,3 +539,196 @@ header {
   margin-bottom: 15px;
 }
 /* Pricing css style end */
+
+/* Clients review css style start */
+#testimonial {
+  background: url('../images/Testimonial.png');
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 20px;
+  margin-top: 150px;
+}
+.testimonial_container {
+  max-width: 520px;
+  margin-right: 110px;
+}
+.testimonial_title h2 {
+  font-size: 40px;
+  line-height: 50px;
+  color: #242f51;
+  font-weight: 600;
+}
+.testimonial_title p {
+  padding: 15px 0px;
+}
+.customer_review h4 {
+  font-size: 20px;
+  line-height: 58px;
+  color: #242f51;
+  font-weight: 600;
+}
+.icon {
+  padding-top: 15px;
+}
+.icon i {
+  color: #ffcc00;
+  font-size: 20px;
+  line-height: 58px;
+}
+.customer_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons {
+  margin-top: 22px;
+  display: flex;
+}
+.fa-arrow-right,
+.fa-arrow-left {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #eff3f8;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #dee1e6;
+}
+.fa-arrow-right {
+  margin-left: 10px;
+  color: #2500f9;
+  background: #eff3f8;
+}
+.customer {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.customer h4 {
+  font-size: 18px;
+  color: #242f51;
+  font-weight: 600;
+}
+.customer img {
+  margin-right: 20px;
+}
+/* Clients review css style end */
+
+/* Faq section style start */
+#faq_section {
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+.faq_title {
+  max-width: 600px;
+  text-align: center;
+  margin: 0px auto;
+}
+.faq_title h2 {
+  font-size: 40px;
+  line-height: 58px;
+  color: #242f51;
+  font-weight: 600;
+  padding: 15px 0px;
+}
+.faq_container {
+  margin-top: 53px;
+}
+.single_faq_title {
+  padding: 15px 0px;
+}
+.single_faq_title,
+.single_faq {
+  max-width: 945px;
+  background-color: #eff1f5;
+  margin: 0 auto;
+  padding: 30px;
+}
+.single_faq_title h3 {
+  font-size: 20px;
+  line-height: 58px;
+  color: #242f51;
+  font-weight: 600;
+}
+.single_faq_title p {
+  padding-right: 100px;
+}
+.single_faq {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px auto;
+  padding: 0px 30px;
+}
+.single_faq h3 {
+  font-size: 18px;
+  line-height: 58px;
+  color: #242f51;
+  font-weight: 500;
+}
+.single_faq,
+.fa-plus {
+  color: #242f51;
+}
+/* Faq section style end */
+
+/* download css style start */
+
+#download {
+  background: url("../images/vectorSmartObjectThree.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 665px;
+}
+.download_content {
+  max-width: 640px;
+  padding: 120px 0px;
+}
+.download_app h2 {
+  font-size: 48px;
+  line-height: 58px;
+  color: #242f51;
+  font-weight: 600;
+}
+.download_app p {
+  padding: 30px 0px;
+}
+
+/* download css style end */
+
+/* footer css style start */
+.footer {
+  background-color: #09142e;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.footer_nav ul li {
+  display: inline-block;
+  padding: 25px 20px;
+}
+.footer_content li a {
+  color: #fff;
+  font-size: 15px;
+}
+.social-icon {
+  font-size: 30px;
+  letter-spacing: 23px;
+  line-height: 44px;
+  color: #596787;
+  font-weight: 400;
+}
+.social-icon i:hover {
+  color: red;
+  transition: 0.3s;
+}
+.footer_content p {
+  margin-top: 40px;
+  color: #fff;
+  font-size: 14px;
+}
+/* footer css style end */

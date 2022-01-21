@@ -39,6 +39,14 @@
   .jackpot_container {
     grid-template-columns: repeat(1, 1fr);
   }
+  /* testimonial responsive css style */
+  #testimonial {
+    background-image: none;
+  }
+  /* download responsive css style */
+  #download {
+    background: none;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -115,11 +123,18 @@
   .app_container {
     grid-template-columns: repeat(1, 1fr);
   }
-
+  /* testimonial responsive css style */
+  #testimonial {
+    background-image: none;
+  }
   /* price responsive css style */
   .pricing_card {
     grid-template-columns: repeat(1, 1fr);
     place-items: center;
+  }
+  /* download responsive css style */
+  #download {
+    background: none;
   }
 }
 
@@ -161,7 +176,6 @@
   .feature_box {
     text-align: center;
   }
-
   /* jackpot responsive css styles */
   .jackpot_title {
     flex-direction: column;
@@ -196,10 +210,36 @@
   .app_container {
     grid-template-columns: repeat(1, 1fr);
   }
-
+  /* testimonial responsive css style */
+  #testimonial {
+    background-image: none;
+  }
   /* price responsive css style */
   .pricing_card {
     grid-template-columns: repeat(1, 1fr);
     place-items: center;
+  }
+  /* faq responsive css style */
+  .faq_title h2 {
+    font-size: 30px;
+    line-height: 41px;
+  }
+  .single_faq_title h3 {
+    font-size: 19px;
+    line-height: 32px;
+    margin-bottom: 10px;
+  }
+  .single_faq_title p {
+    padding: 0;
+    font-size: 14px;
+  }
+  .single_faq h3 {
+    font-size: 15px;
+    line-height: 25px;
+    padding-right: 10px;
+  }
+  /* download responsive css style */
+  #download {
+    background: none;
   }
 }
